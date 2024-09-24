@@ -30,8 +30,10 @@ This POC is a 1 page site build by multiple components made by php, included and
 linked with each other in order to work seamlessly.
 
 **Example / Result**
+
 Live:         https://makam.co.nl/[n/a]
 
 **Disclaimer**
+
 This is a POC only ment for my assessment. This is not a working platform, merely just a
 realized version of the concept. Everything in this repository has been used for personal affairs only.
