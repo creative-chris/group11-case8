@@ -1,0 +1,1 @@
+<!-- DO NOT USE GENERAL TERMS LIKE: header, footer, main, center etc. PLEASE only use id to refer a div. -->

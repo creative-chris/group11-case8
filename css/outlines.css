@@ -1,0 +1,26 @@
+#container {
+    border: solid 1px black;
+}
+
+
+/* sections outline */
+
+#section1 {
+    background-color: blueviolet;
+}
+#section2 {
+    background-color: grey;
+}
+#section3 {
+    background-color: red;
+}
+#section4 {
+    background-color: green;
+}
+
+/* --inner section outline */
+
+.inner-section {
+    background: coral;
+    border: solid white 1px;
+}
