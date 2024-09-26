@@ -3,14 +3,14 @@
     <head>
         <?php include("head.php"); ?>
         <!-- Outlines css is ony for showing content outlines. Remove if not needed -->
-        <link href="css/outlines.css" type="text/css" rel="stylesheet" media="screen"/>
+        <!-- <link href="css/outlines.css" type="text/css" rel="stylesheet" media="screen"/> -->
         <!-- Link here your personal css & JS -->
     </head>
     <body>
         <script defer></script>
         <div id="container">
             <header>
-                <?php include("header.php"); ?>
+                <!-- <php include("header.php"); ?> -->
             </header>
             <main>
                 <!-- All pieces of the landing page are sectionized from top to bottom -->
