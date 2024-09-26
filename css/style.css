@@ -65,8 +65,8 @@ main .section {
 .inner-section {
     max-width: 90%;
     overflow-y: hidden;
-    min-height: 100%;
-    height: auto;
+    height: 100%;
+    min-height: 100vh;
 }
 
 /* Buttons styling */

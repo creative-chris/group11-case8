@@ -1,0 +1,43 @@
+
+#section3-content {
+    position: relative;
+}
+
+#section3-content div {
+    display: block;
+    text-align: left;
+    float: left;
+}
+
+/* ARROW controls */
+#arrowR, #arrowL {
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+
+    /* content positioning */
+    position: relative;
+    text-align: center;
+}
+#arrowR img, #arrowL img {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+/* Content & inner content */
+#section3-centercontent {
+    width: 80%;
+    height: 100%;
+}
+
+#section3-centercontent div {
+
+    /* content positioning */
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}

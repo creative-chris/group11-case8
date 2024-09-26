@@ -5,6 +5,8 @@
         <!-- Outlines css is ony for showing content outlines. Remove if not needed -->
         <link href="css/outlines.css" type="text/css" rel="stylesheet" media="screen"/>
         <!-- Link here your personal css & JS -->
+        <link href="section3.css" type="text/css" rel="stylesheet" media="screen"/>
+        <link href="section4.css" type="text/css" rel="stylesheet" media="screen"/>
     </head>
     <body>
         <script defer></script>

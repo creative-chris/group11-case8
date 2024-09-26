@@ -2,19 +2,24 @@
 <div id="section3-content">
 
     <!-- Left arrow control -->
-    <div id="arrowL"></div>
+    <div id="arrowL">
+        <img src="image/arrow-left.png" />
+    </div>
 
     <!-- Section 3 content -->
     <div id="section3-centercontent">
 
         <!-- Inner content (3 pages) -->
-        <div id="section3-centercontent-page1"></div>
-        <div id="section3-centercontent-page2"></div>
+        <!-- <div id="section3-centercontent-page1"></div> -->
+        <!-- <div id="section3-centercontent-page2"></div> -->
         <div id="section3-centercontent-page3">
-            <iframe width="100%" src="https://online.fliphtml5.com/mavas/roaj/"></iframe>
+            <iframe src="https://online.fliphtml5.com/mavas/roaj/"></iframe>
         </div>
+
     </div>
 
     <!-- Right arrow control -->
-    <div id="arrowR"></div>
+    <div id="arrowR">
+        <img src="image/arrow-right.png" />
+    </div>
 </div>
