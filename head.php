@@ -6,6 +6,7 @@
     <!-- CSS section -->
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="css/responsive.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="css/navbar.css" type="text/css" rel="stylesheet" media="screen"/>
 
     <!-- Font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -1,0 +1,95 @@
+
+#background-image {
+    background-image: url('image\UI- version 2 - Chris.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px; /* Set the specific height for the background section */
+    display: flex; /* Flexbox for centering content */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Adjust text color */
+    position: relative; /* Keeps the div from covering other content */
+}
+
+#image-container {
+    position: relative; /* Positioning context for child elements */
+    overflow: hidden; /* Prevent overflow */
+    height: 100vh; /* Set the height of the container to fill the viewport */
+}
+
+#row {
+    height: 100%; /* Full height for the row */
+}
+
+#column1, #column2, #column3 {
+    padding: 0; /* Remove padding to avoid white spaces */
+    transition: transform 0.3s ease; /* Transition for the column */
+}
+
+#hover-effect1, #hover-effect2, #hover-effect3 {
+    position: relative; /* To position text on top of images */
+    overflow: hidden; /* Ensure no overflow */
+    text-align: center; /* Center text */
+    height: 100%; /* Full height for hover effect */
+}
+
+#custom-image1, #custom-image2, #custom-image3 {
+    width: 100%; /* Make images responsive */
+    height: 100%; /* Set height to fill the container */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    transition: transform 0.3s ease; /* Transition for hover effect */
+}
+
+#hover-effect1:hover #custom-image1 {
+    transform: scale(1.1); /* Enlarge image on hover */
+}
+
+#hover-effect1:hover ~ #column2, 
+#hover-effect1:hover ~ #column3 {
+    transform: translateX(-10%); /* Shift adjacent columns to the left */
+}
+
+#hover-effect2:hover #custom-image2 {
+    transform: scale(1.1); /* Enlarge image on hover */
+}
+
+#hover-effect2:hover ~ #column1, 
+#hover-effect2:hover ~ #column3 {
+    transform: translateX(10%); /* Shift adjacent columns to the right */
+}
+
+#hover-effect3:hover #custom-image3 {
+    transform: scale(1.1); /* Enlarge image on hover */
+}
+
+#hover-effect3:hover ~ #column1, 
+#hover-effect3:hover ~ #column2 {
+    transform: translateX(10%); /* Shift adjacent columns to the right */
+}
+
+#text1, #text2, #text3 {
+    position: absolute; /* Position text absolutely within the hover effect */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    color: white; /* Change text color to make it readable */
+    width: 100%; /* Take full width */
+    top: 50%; /* Center the h3 vertically */
+}
+
+#title1, #title2, #title3 {
+    position: absolute; /* Position h1 absolutely */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    color: white; /* Change text color to make it readable */
+    width: 100%; /* Take full width */
+    bottom: 10%; /* Position h1 at the bottom */
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+    #text1, #text2, #text3, #title1, #title2, #title3 {
+        font-size: 14px; /* Smaller font for mobile */
+    }
+}

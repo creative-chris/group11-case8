@@ -3,14 +3,19 @@
     <head>
         <?php include("head.php"); ?>
         <!-- Outlines css is ony for showing content outlines. Remove if not needed -->
-        <link href="css/outlines.css" type="text/css" rel="stylesheet" media="screen"/>
+        <!-- <link href="css/outlines.css" type="text/css" rel="stylesheet" media="screen"/> -->
         <!-- Link here your personal css & JS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/navbar.css"> <!-- Your custom styles here -->
+
     </head>
     <body>
         <script defer></script>
         <div id="container">
             <header>
-                <?php include("header.php"); ?>
+                <!-- <php include("header.php"); ?> -->
             </header>
             <main>
                 <!-- All pieces of the landing page are sectionized from top to bottom -->
